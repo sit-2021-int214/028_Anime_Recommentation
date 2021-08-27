@@ -16,7 +16,7 @@ Code here
 ```
 
 
-### Team: xxxxxxx
+### Team: Alpha-Lactabulmin
 
 1. นาย ภาณุพงศ์ นาคมณี    StudentID: 63130500092
 2. นาย รัญชน์ เลิศจิตธำรง     StudentID: 63130500101
