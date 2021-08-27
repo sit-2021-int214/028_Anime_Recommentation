@@ -6,6 +6,7 @@ Explore 2 dataset that given then finding descriptive statistics and summary res
 1.) หาค่าเฉลี่ย Body weight ของแมวเพศเมีย และ จำนวนของแมวเพศเมียทั้งหมด
 ```{R}
 mean(cats$Bwt[cats$Sex == 'F']) #2.359574
+sum(cats$Sex == 'F') #47
 ```
 คำอธิบาย
 
