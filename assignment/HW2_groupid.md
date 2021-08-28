@@ -43,13 +43,15 @@ mean(survey$Age[survey$Smoke == 'Heavy'],na.rm = TRUE) #21.394
 หาค่าเฉลี่ยโดยใช้คำสั่ง mean survey$Age และเจาะจงกลุ่มข้อมูล Colum คนที่สูบบุหรี่โดยใช้ [survey$Smoke == 'Heavy']
 จากนั้นใช้คำสั่ง na.rm = TRUE เพื่อเอาค่า NA ใน column Height ออกไปจากการคิดค่า mean
 ```
-5.) 
+5.) หาค่าเฉลี่ย Body weight และ heart weight ของแมวเพศผู้
 ```{R}
-Code here
+mean(cats$Bwt[cats$Sex == 'M']) # 2.9
+mean(cats$Hwt[cats$Sex == 'M']) # 11.32268
 ```
 คำอธิบาย
 ```{R}
-Description
+หาค่าเฉลี่ย Body weight แมวเพศผู้ โดยใช้คำสั่ง mean(cats$Bwt) เพื่อบอกว่าเรากำลังใช้ข้อมูลชุดไหน ตามด้วย $ เพื่อเรียก Colum ที่เราจะหา และทำการตรวจสอบอีกครั้งว่าเป็นเพศผู้โดยใช้ [cats$Sex == 'M']
+หาค่าเฉลี่ย heart weight แมวเพศผู้ โดยใช้คำสั่ง mean(cats$Hwt) เพื่อบอกว่าเรากำลังใช้ข้อมูลชุดไหน ตามด้วย $ เพื่อเรียก Colum ที่เราจะหา และทำการตรวจสอบอีกครั้งว่าเป็นเพศผู้โดยใช้ [cats$Sex == 'M']
 ```
 
 
