@@ -1,4 +1,4 @@
-# Assignment 2 (Group)
+# Assignment 2 (Group)Cancel changes
 Explore 2 dataset that given then finding descriptive statistics and summary result in form of sentences/paragraph at least 5 topics.
 
 ### Answer
@@ -61,7 +61,7 @@ mean(survey$Age[survey$Sex == 'Male'],na.rm = TRUE) #20.331
 ```{R}
 หาค่าเฉลี่ย Age โดยใช้คำสั่ง mean(survey$Age) และทำการเจาะจงไปที่ผู้ชายด้วยคำสั่ง [survey$Sex == 'Male']
 มีการใช้ na.rm = TRUE เพื่อเอาค่า NA ใน column Sex ออกไปจากการคิดค่า mean
-
+```
 ### Team: Alpha-lactalbumin
 | No. | Name              | Student ID   |
 |:---:|-------------------|--------------|
