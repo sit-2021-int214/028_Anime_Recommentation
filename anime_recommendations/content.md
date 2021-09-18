@@ -4,11 +4,10 @@ This data set contains information on user preference data from 73,516 users on 
 Content
 Anime.csv
 
-anime_id - myanimelist.net's unique id identifying an anime.
-name - full name of anime.
-genre - comma separated list of genres for this anime.
-type - movie, TV, OVA, etc.
-episodes - how many episodes in this show. (1 if movie).
-rating - average rating out of 10 for this anime.
-members - number of community members that are in this anime's
-"group".
+- anime_id - myanimelist.net's unique id identifying an anime.
+- name - full name of anime.
+- genre - comma separated list of genres for this anime.
+- type - movie, TV, OVA, etc.
+- episodes - how many episodes in this show. (1 if movie).
+- rating - average rating out of 10 for this anime.
+- members - number of community members that are in this anime's "group".
