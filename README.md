@@ -1,11 +1,12 @@
-# 028-Anime_Recommendation
+# 028-Anime_Recommendations
 
 Original Datasets from: 
  - Kaggle [CooperUnion/Anime Recommendations](https://www.kaggle.com/CooperUnion/anime-recommendations-database?select=anime.csv)
 
-### About's Products Datasets
+### About's Anime Recommendations
 
-This dataset is about's sample uniqlo product that sell in 2021. It includes productID, name of products, type of products, price of products, and number of sold.
+This data set contains information on user preference data from 73,516 users on 12,294 anime. Each user is able to add anime to 
+their completed list and give it a rating and this data set is a compilation of those ratings.
 
 ## Overview
 
