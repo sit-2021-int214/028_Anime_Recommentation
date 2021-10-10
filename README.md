@@ -29,7 +29,7 @@ E.g. กลุ่มของเราเลือกชุดข้อมูล
 
 ## Table of Contents
 
-1. [Exploratory Data Analysis](./Exploratory Data Analysis.md)
+1. - [Exploratory Data Analysis](./Exploratory Data Analysis.md)
 2. [Data Visualization]()
 
 ## Resources
