@@ -34,7 +34,7 @@ E.g. กลุ่มของเราเลือกชุดข้อมูล
 
 - [code_eda.R](./code_eda.R) : Exploratory Data Analysis
 - [Anime_Recommendations_original.csv](./anime_recommendation.csv): Original Dataset
-- [Anime_Recommendations.csv](./products_original.csv): Clean Dataset
+- [Anime_Recommendations.csv](./anime_clean.csv): Clean Dataset
 
 ### References
 
