@@ -58,22 +58,8 @@ anime_id name                                    genre          type  episodes r
      <dbl> <chr>                                   <chr>          <chr>    <dbl>  <dbl>   <dbl>
 1    33662 Taka no Tsume 8: Yoshida-kun no X-Files Comedy, Parody Movie        1     10      13
 ```
-### 2.2. List the data that duplicate
-```
-sat_score %>% filter(duplicated(sat_score))
-```
-Result
-```
-DBN                                     school_name   math_score   reading_score  writing_score
-1 02M376                                NYC ISCHOOL        483           473           479
-2 19K507 PERFORMING ARTS AND TECHNOLOGY HIGH SCHOOL        386           380           383
-3 24Q267       HIGH SCHOOL OF APPLIED COMMUNICATION        413           406           400
-4 27Q400                  AUGUST MARTIN HIGH SCHOOL        371           377           360
-5 30Q502         INFORMATION TECHNOLOGY HIGH SCHOOL        434           407           398
-6 31R080             THE MICHAEL J. PETRIDES SCHOOL        488           472           466
-7 79X490                            PHOENIX ACADEMY        370           367           360
 
-```
+
 ## 3.How many distinct school in this dataset ? (Know after drop duplicate data)
 ### 3.1. Drop duplicate data
 ```
