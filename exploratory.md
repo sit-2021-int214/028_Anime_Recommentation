@@ -28,7 +28,7 @@ library(dplyr)
 anime <- read.csv("D:/IT/IT Y.2/INT214 Stat for IT/R/Midterm assignment/anime_clean.csv)
 ```
 
-## 1.Anime ที่มีคนยอดผู้ติดตามมากที่สุด
+## 1.Anime เรื่องไหนที่มียอดผู้ติดตามมากที่สุด
 
 Explain here
 
@@ -45,16 +45,18 @@ Result
 ```
 
 
-## 2.Are there duplicate data sets ? (If have duplicate data, list the data that duplicate)
+## 2.Anime เรื่องไหนที่คนชอบดูมากที่สุด
 
-### 2.1. If have duplicate data
+Explain here
+
 ```
-sat_score %>% duplicated() %>% table()
+anime %>% filter(anime$rating == max(anime$rating));
 ```
 Result
 ```
-FALSE  TRUE 
-  478     7 
+anime_id name                                    genre          type  episodes rating members
+     <dbl> <chr>                                   <chr>          <chr>    <dbl>  <dbl>   <dbl>
+1    33662 Taka no Tsume 8: Yoshida-kun no X-Files Comedy, Parody Movie        1     10      13
 ```
 ### 2.2. List the data that duplicate
 ```
