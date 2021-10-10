@@ -33,7 +33,7 @@ anime <- read.csv("D:/IT/IT Y.2/INT214 Stat for IT/R/Midterm assignment/anime_cl
 Explain here
 
 ```
-anime %>% filter(members == max(members,na.rm = T));
+anime %>% filter(members == max(members));
 ```
 
 Result
