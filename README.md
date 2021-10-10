@@ -29,14 +29,14 @@ E.g. กลุ่มของเราเลือกชุดข้อมูล
 
 ## Table of Contents
 
-1. - [Exploratory Data Analysis](./Exploratory Data Analysis.md)
+1. [Exploratory Data Analysis](./Exploratory Data Analysis.md)
 2. [Data Visualization]()
 
 ## Resources
 
 ### Important Files in Repository
 
-- [code_eda.R](./code_eda.R) : Exploratory Data Analysis
+- [code_eda.R](./code_eda.R) : Exploratory Data Analysis.md
 - [Anime_Recommendations_original.csv](./anime_recommendation.csv) : Original Dataset
 - [Anime_Recommendations.csv](./anime_clean.csv) : Clean Dataset
 
