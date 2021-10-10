@@ -10,7 +10,7 @@ Dataset from [anime_clean.csv](./anime_clean.csv)
 
 ## Define a question
 
-1. Anime ที่มีคนยอดผู้ติดตามมากที่สุด
+1. Anime ที่มียอดผู้ติดตามมากที่สุด
 2. Are there duplicate data sets  (If have duplicate data, list the data that duplicate)
 3. How many distinct school in this dataset  (Know after drop duplicate data)
 4. What is min, max, average, quartile of each part in SAT 
