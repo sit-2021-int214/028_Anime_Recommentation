@@ -1,8 +1,7 @@
-# Workshop 01 EDA SAT Scores dataset
+# Anime Dataset
 
 Dataset from [anime_clean.csv](./anime_clean.csv)
 
-Created by Panupong Nakmanee (ID 63130500092)
 
 ### My Step
 1. Define a questionCancel changes
@@ -11,14 +10,13 @@ Created by Panupong Nakmanee (ID 63130500092)
 
 ## Define a question
 
-1. How many observation of this dataset (before cleaning) 
+1. Anime ที่มีคนยอดผู้ติดตามมากที่สุด
 2. Are there duplicate data sets  (If have duplicate data, list the data that duplicate)
 3. How many distinct school in this dataset  (Know after drop duplicate data)
 4. What is min, max, average, quartile of each part in SAT 
 5. What is min, max, average, quartile of total score in SAT 
 6. Which school is get highest SAT score 
 
-Can add more question ....
 
 ## Step 0 Loading library and dataset
 
@@ -27,22 +25,23 @@ Can add more question ....
 library(dplyr)
 
 #dataset
-sat_score <- read.csv("https://raw.githubusercontent.com/safesit23/INT214-Statistics/main/datasets/SAT_original.csv")
+anime <- read.csv("D:/IT/IT Y.2/INT214 Stat for IT/R/Midterm assignment/anime_clean.csv)
 ```
 
-## 1.How many observation of this dataset (before cleaning) ?
+## 1.Anime ที่มีคนยอดผู้ติดตามมากที่สุด
 
 Explain here
 
 ```
-sat_score %>% count()
+anime %>% filter(members == max(members,na.rm = T));
 ```
 
 Result
 
 ```
-    n
-1 485
+ anime_id name       genre                                                  type  episodes rating members
+     <dbl> <chr>      <chr>                                                  <chr>    <dbl>  <dbl>   <dbl>
+1     1535 Death Note Mystery, Police, Psychological, Supernatural, Thriller TV          37   8.71 1013917
 ```
 
 
