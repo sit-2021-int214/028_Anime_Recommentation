@@ -1,6 +1,6 @@
 # Workshop 01 EDA SAT Scores dataset
 
-Dataset from [SAT_original.csv](httpsraw.githubusercontent.comsafesit23INT214-StatisticsmaindatasetsSAT_original.csv)
+Dataset from [anime_clean.csv](./anime_clean.csv)
 
 Created by Panupong Nakmanee (ID 63130500092)
 
