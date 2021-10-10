@@ -16,7 +16,11 @@ E.g. กลุ่มของเราเลือกชุดข้อมูล
 ### Steps
 
 1. Define a question
-2. Observe...
+2. Search datasets from Kaggle
+3. Retrieve the relevant dataset from Kaggle
+4. Explore the dataset from the original dataset
+5. Data Cleaning and Data Transformation
+6. Exploratory Data Analysis
 
 ### Tools
 
@@ -33,8 +37,8 @@ E.g. กลุ่มของเราเลือกชุดข้อมูล
 ### Important Files in Repository
 
 - [code_eda.R](./code_eda.R) : Exploratory Data Analysis
-- [Anime_Recommendations_original.csv](./anime_recommendation.csv): Original Dataset
-- [Anime_Recommendations.csv](./anime_clean.csv): Clean Dataset
+- [Anime_Recommendations_original.csv](./anime_recommendation.csv) : Original Dataset
+- [Anime_Recommendations.csv](./anime_clean.csv) : Clean Dataset
 
 ### References
 
