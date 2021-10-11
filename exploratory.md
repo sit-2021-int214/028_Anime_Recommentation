@@ -60,24 +60,16 @@ anime_id name                                    genre          type  episodes r
 ```
 
 
-## 3.How many distinct school in this dataset ? (Know after drop duplicate data)
-### 3.1. Drop duplicate data
+## 3. 5 อันดับแรกของ Anime แนวเรื่องไหน ที่ผลิตออกมามากที่สุด
+Explain here
 ```
-sat_score <- sat_score %>% distinct()
-```
-Result
-```
-FALSE 
-  478 
-```
-### 3.2. How many distinct school in this dataset after drop duplicate data.
-```
-sat_score$school_name %>% duplicated() %>% sum()
+
 ```
 Result
 ```
-0
+
 ```
+
 ## 4.What is min, max, average, quartile of each part in SAT ?
 Change data to numeric before find min, max, average, quartile
 ```
