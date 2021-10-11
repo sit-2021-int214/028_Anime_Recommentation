@@ -13,6 +13,14 @@ their completed list and give it a rating and this data set is a compilation of 
 // Write Statement here
 E.g. กลุ่มของเราเลือกชุดข้อมูลนี้เพราะต้องการศึกษา.....
 
+สิ่งที่อยากรู้ :
+1. Anime เรื่องไหนที่มียอดผู้ติดตามมากที่สุด
+2. Anime เรื่องไหนที่มีคะแนน Rating สูงที่สุด
+3. 5 อันดับแรกของ Anime แนวเรื่องไหน ที่ผลิตออกมามากที่สุด
+4. Anime เรื่องไหนบ้างที่มี Episodes มากกว่า 100 ตอน และมีคะแนนมากกว่า 8.50/10 คะแนน
+5. 
+6. 
+
 ### Steps
 
 1. Define a question
