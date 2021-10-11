@@ -48,7 +48,6 @@ Result
 ## 2.Anime เรื่องไหนที่คนชอบดูมากที่สุด
 
 Explain here
-
 ```
 anime %>% filter(anime$rating == max(anime$rating));
 ```
@@ -61,6 +60,7 @@ anime_id name                                    genre          type  episodes r
 
 
 ## 3. 5 อันดับแรกของ Anime แนวเรื่องไหน ที่ผลิตออกมามากที่สุด
+
 Explain here
 ```
 
@@ -70,65 +70,34 @@ Result
 
 ```
 
-## 4.What is min, max, average, quartile of each part in SAT ?
-Change data to numeric before find min, max, average, quartile
-```
-sat_score$math_score <- as.numeric(sat_score$math_score)
-sat_score$reading_score <- as.numeric(sat_score$reading_score)
-sat_score$writing_score <- as.numeric(sat_score$writing_score)
-```
-### 4.1 min, max, average, quartile of math_score
-```
-summary(sat_score$math_score)
-```
-Result
-```
-  Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
-   34.0   371.0   395.0   429.8   437.0  7735.0      57 
-```
-### 4.2 min, max, average, quartile of reading_score
-```
-summary(sat_score$reading_score)
-```
-Result
-```
-  Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
-   37.0   367.0   391.0   399.3   416.0   679.0      57 
-```
-### 4.3 min, max, average, quartile of writing_score
-```
-summary(sat_score$writing_score)
-```
-Result
-```
-Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
-   35.0   360.0   381.0   401.1   411.0  4030.0      57 
+## 4.Anime เรื่องไหนบ้างที่มี Episodes มากกว่า 100 ตอน และมีคะแนนมากกว่า 8.5/10 คะแนน
+Explain
 ```
 
-## 5.What is min, max, average, quartile of total score in SAT ?
-```
-sat_score %>% mutate(total_score = math_score + reading_score + writing_score) %>% select(total_score) %>% summary()
 ```
 Result
-```
- total_score  
- Min.   : 106  
- 1st Qu.:1102  
- Median :1170  
- Mean   :1230  
- 3rd Qu.:1262  
- Max.   :9096  
- NA's   :57  
 ```
 
-## 6.Which school is get highest SAT score ?
 ```
-sat_score %>% filter(total_score == max(total_score,na.rm = T))
+
+## 5.มี Anime ที่เป็น comedy ทัังหมดกี่เรื่องที่มีจำนวน Episode มากกว่า 100 
+Explain
+```
+
 ```
 Result
 ```
-     DBN            school_name math_score reading_score writing_score total_score
-1 02M475 STUYVESANT HIGH SCHOOL       7735           679           682        9096
+
+```
+
+## 6.
+Explain
+```
+
+```
+Result
+```
+
 ```
 
 
