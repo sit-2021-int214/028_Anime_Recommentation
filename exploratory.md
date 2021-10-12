@@ -28,7 +28,7 @@ library(dplyr)
 anime <- read.csv("D:/IT/IT Y.2/INT214 Stat for IT/R/Midterm assignment/anime_clean.csv)
 ```
 
-## 1.Anime เรื่องไหนที่มียอดผู้ติดตามมากที่สุด
+## 1.Anime เรื่องไหนที่มียอดกลุ่มผู้ติดตามมากที่สุด
 
 Explain here
 
@@ -45,7 +45,7 @@ Result
 ```
 
 
-## 2.Anime เรื่องไหนที่คนชอบดูมากที่สุด
+## 2.Anime เรื่องไหนที่มีคะแนน rating มากที่สุด
 
 Explain here
 ```
@@ -80,14 +80,17 @@ Result
 
 ```
 
-## 5.มี Anime ที่เป็น comedy ทัังหมดกี่เรื่องที่มีจำนวน Episode มากกว่า 100 
+## 5. มี Anime ทั้่งหมดกี่เรื่องที่มี rating น้อยกว่า 5.0 ที่เป็นประเภท OVA เท่านั้น
 Explain
 ```
-
+anime %>% filter(type == 'OVA' & rating < 5.0) %>% count();
 ```
 Result
 ```
-
+# A tibble: 1 x 1
+      n
+  <int>
+1   174
 ```
 
 ## 6.
