@@ -13,9 +13,9 @@ Dataset from [anime_clean.csv](./anime_clean.csv)
 1. Anime เรื่องไหนที่มีจำนวนของกลุ่มผู้ติดตามมากที่สุด
 2. Anime เรื่องไหนที่มีคะแนน rating มากที่สุด
 3. 5 อันดับแรกของ Anime แนวเรื่องไหน ที่ผลิตออกมามากที่สุด
-4. Anime เรื่องไหนบ้างที่มี Episodes มากกว่า 100 ตอน และมีคะแนนมากกว่า 8.5/10 คะแนน
+4. 4. Anime เรื่องไหนบ้างที่มี Episodes มากกว่า 100 ตอน และมีคะแนนมากกว่า 8.5/10 คะแนน
 5. มี Anime ทั้่งหมดกี่เรื่องที่มี rating น้อยกว่า 5.0 ที่เป็นประเภท OVA เท่านั้น
-6. Which school is get highest SAT score 
+6.  
 
 
 ## Step 0 Loading library and dataset
