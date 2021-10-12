@@ -80,7 +80,7 @@ Result
 
 ```
 
-## 5. มี Anime ทั้่งหมดกี่เรื่องที่มี rating น้อยกว่า 5.0 ที่เป็นประเภท OVA เท่านั้น
+## 5. มี Anime ทั้งหมดกี่เรื่องที่มี rating น้อยกว่า 5.0 ที่เป็นประเภท OVA เท่านั้น
 Explain
 ```
 anime %>% filter(type == 'OVA' & rating < 5.0) %>% count();
