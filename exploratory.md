@@ -10,11 +10,11 @@ Dataset from [anime_clean.csv](./anime_clean.csv)
 
 ## Define a question
 
-1. Anime ที่มียอดผู้ติดตามมากที่สุด
-2. Anime เรื่องไหนที่คนชอบดูมากที่สุด
-3. How many distinct school in this dataset  (Know after drop duplicate data)
-4. What is min, max, average, quartile of each part in SAT 
-5. What is min, max, average, quartile of total score in SAT 
+1. Anime เรื่องไหนที่มีจำนวนของกลุ่มผู้ติดตามมากที่สุด
+2. Anime เรื่องไหนที่มีคะแนน rating มากที่สุด
+3. 5 อันดับแรกของ Anime แนวเรื่องไหน ที่ผลิตออกมามากที่สุด
+4. Anime เรื่องไหนบ้างที่มี Episodes มากกว่า 100 ตอน และมีคะแนนมากกว่า 8.5/10 คะแนน
+5. มี Anime ทั้่งหมดกี่เรื่องที่มี rating น้อยกว่า 5.0 ที่เป็นประเภท OVA เท่านั้น
 6. Which school is get highest SAT score 
 
 
@@ -28,7 +28,7 @@ library(dplyr)
 anime <- read.csv("D:/IT/IT Y.2/INT214 Stat for IT/R/Midterm assignment/anime_clean.csv)
 ```
 
-## 1.Anime เรื่องไหนที่มียอดกลุ่มผู้ติดตามมากที่สุด
+## 1.Anime เรื่องไหนที่มีจำนวนของกลุ่มผู้ติดตามมากที่สุด
 
 Explain here
 
