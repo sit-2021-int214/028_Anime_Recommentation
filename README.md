@@ -37,16 +37,16 @@ their completed list and give it a rating and this data set is a compilation of 
 
 ## 📚 Table of Contents
 
-1. [Exploratory Data Analysis](./exploratory.md)
+1. [Exploratory Data Analysis](./term assignment [Group]/mid-term/exploratory.md)
 2. [Data Visualization]()
 
 ## 📁 Resources
 
 ### Important Files in Repository
 
-- [code_eda.R](./code_eda.R) : Exploratory Data Analysis.md
-- [Anime_Recommendations_original.csv](./anime_recommendation.csv) : Original Dataset
-- [Anime_Recommendations.csv](./anime_clean.csv) : Clean Dataset
+- [code_eda.R](./term assignment [Group]/mid-term/code_eda.R) : Exploratory Data Analysis.md
+- [Anime_Recommendations_original.csv](./term assignment [Group]/mid-term/anime_recommendation.csv) : Original Dataset
+- [Anime_Recommendations.csv](./term assignment [Group]/mid-term/anime_clean.csv) : Clean Dataset
 
 ### References
 //Link
