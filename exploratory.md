@@ -69,17 +69,18 @@ anime_id name                                    genre          type  episodes r
 
 Explain here
 ```
-anime %>% count(genre,sort = TRUE) %>% head(n = 5L)
+anime %>% separate_rows(genre) %>% count(genre,sort = TRUE) %>% head(n = 5L)
 ```
 Result
 ```
-  genre                     n
-  <chr>                 <int>
-1 Hentai                  785
-2 Comedy                  500
-3 Music                   297
-4 Kids                    190
-5 Comedy, Slice of Life   166
+# A tibble: 5 x 2
+  genre         n
+  <chr>     <int>
+1 Comedy     4483
+2 Action     2748
+3 Adventure  2293
+4 Fantasy    2219
+5 Fi         2028
 ```
 
 ## 4.Anime เรื่องไหนบ้างที่มี Episodes มากกว่า 100 ตอน และมีคะแนนมากกว่า 8.5/10 คะแนน
