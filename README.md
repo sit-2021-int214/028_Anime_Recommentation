@@ -20,6 +20,7 @@ their completed list and give it a rating and this data set is a compilation of 
 4. Anime เรื่องไหนบ้างที่มี Episodes มากกว่า 100 ตอน และมีคะแนนมากกว่า 8.5/10 คะแนน
 5. มี Anime ที่เป็น comedy ทัังหมดกี่เรื่องที่มีจำนวน Episode มากกว่า 100 
 6. มี Anime เรื่องใดบ้างที่ออกฉายทางโทรทัศน์และมีจำนวนตอนมากกว่า 100 ตอนขึ้นไป
+7. มีประเภทของ Anime ทั้งหมดกี่ประเภท และแต่ละประเภทมี Anime อยู่ทั้งหมดกี่เรื่อง
 
 ### :thought_balloon: Steps
 
