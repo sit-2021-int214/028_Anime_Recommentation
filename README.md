@@ -29,7 +29,7 @@ their completed list and give it a rating and this data set is a compilation of 
 5. Data Cleaning and Data Transformation
 6. Exploratory Data Analysis
 
-### Tools
+### 🛠️ Tools
 
 - R Language
 - R Studio Desktop
@@ -51,7 +51,7 @@ their completed list and give it a rating and this data set is a compilation of 
 
 // Link
 
-## About Us
+## :sunglasses: About Us
 
 งานนี้เป็นส่วนของวิชา INT214 Statistics for Information technology <br/> ภาคเรียนที่ 1 ปีการศึกษา 2564 คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
 
