@@ -18,8 +18,9 @@ Dataset from [anime_clean.csv](./anime_clean.csv)
 2. Anime เรื่องไหนที่มีคะแนน rating มากที่สุด
 3. 5 อันดับแรกของ Anime แนวเรื่องไหน ที่ผลิตออกมามากที่สุด
 4. Anime เรื่องไหนบ้างที่มี Episodes มากกว่า 100 ตอน และมีคะแนนมากกว่า 8.5/10 คะแนน
-5. มี Anime ประเภท OVA ทั้่งหมดกี่เรื่องที่มี rating น้อยกว่า 5.0 
+5. มี Anime ประเภท OVA ทั้งหมดกี่เรื่องที่มี rating น้อยกว่า 5.0 
 6. มี Anime เรื่องใดบ้างที่ออกฉายทางโทรทัศน์และมีจำนวนตอนมากกว่า 100 ตอนขึ้นไป
+7. มีประเภทของ Anime ทั้งหมดกี่ประเภท และแต่ละเภทมี Anime ทั้งหมดกี่เรื่อง
 
 
 ## Step 0 Loading library and dataset
@@ -280,5 +281,12 @@ name                                                  type  episodes rating
 157 Xiong Chu Mo Zhi Huanqiu Da Maoxian                   TV         104   6.33
 158 Youyou no Neko Tsumami                                TV         130   6.09
 ```
+## 7. มีประเภทของ Anime ทั้งหมดกี่ประเภท และแต่ละเภทมี Anime ทั้งหมดกี่เรื่อง
+Explain
+```
 
+```
+Result
+```
 
+```
