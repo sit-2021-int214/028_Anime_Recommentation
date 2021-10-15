@@ -1,5 +1,5 @@
 # 028-Anime_Recommendations
-
+![image](https://user-images.githubusercontent.com/68787450/137539511-9fc8c6eb-02fd-4a62-ad8e-5202d3a2f9c3.png)
 Original Datasets from: 
  - Kaggle [CooperUnion/Anime Recommendations](https://www.kaggle.com/CooperUnion/anime-recommendations-database?select=anime.csv)
 
