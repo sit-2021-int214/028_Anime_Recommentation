@@ -49,7 +49,7 @@ their completed list and give it a rating and this data set is a compilation of 
 - [Anime_Recommendations.csv](https://github.com/sit-2021-int214/028_Anime_Recommentation/blob/master/term%20assignment%20%5BGroup%5D/mid-term/anime_clean.csv) : Clean Dataset
 
 ### References
-//Link
+https://www.kaggle.com/CooperUnion/anime-recommendations-database?select=anime.csv
 
 ## :sunglasses: About Us
 
