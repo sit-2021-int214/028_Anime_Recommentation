@@ -27,9 +27,6 @@ Dataset from [anime_clean.csv](./anime_clean.csv)
 
 ```
 #library
-library(readr)
-library(assertive)
-library(stringr)
 library(dplyr)
 library(tidyr)
 
