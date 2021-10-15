@@ -44,9 +44,9 @@ their completed list and give it a rating and this data set is a compilation of 
 
 ### Important Files in Repository
 
-- [code_eda.R](./term assignment [Group]/mid-term/code_eda.R) : Exploratory Data Analysis.md
-- [Anime_Recommendations_original.csv](./term assignment [Group]/mid-term/anime_recommendation.csv) : Original Dataset
-- [Anime_Recommendations.csv](./term assignment [Group]/mid-term/anime_clean.csv) : Clean Dataset
+- [code_eda.R](https://github.com/sit-2021-int214/028_Anime_Recommentation/blob/master/term%20assignment%20%5BGroup%5D/mid-term/code_eda.R) : Exploratory Data Analysis.md
+- [Anime_Recommendations_original.csv](https://github.com/sit-2021-int214/028_Anime_Recommentation/blob/master/term%20assignment%20%5BGroup%5D/mid-term/anime_recommendation.csv) : Original Dataset
+- [Anime_Recommendations.csv](https://github.com/sit-2021-int214/028_Anime_Recommentation/blob/master/term%20assignment%20%5BGroup%5D/mid-term/anime_clean.csv) : Clean Dataset
 
 ### References
 //Link
