@@ -20,7 +20,7 @@ their completed list and give it a rating and this data set is a compilation of 
 5. มี Anime ที่เป็น comedy ทัังหมดกี่เรื่องที่มีจำนวน Episode มากกว่า 100 
 6. มี Anime เรื่องใดบ้างที่ออกฉายทางโทรทัศน์และมีจำนวนตอนมากกว่า 100 ตอนขึ้นไป
 
-### Steps
+### :thought_balloon: Steps
 
 1. Define a question
 2. Search datasets from Kaggle
