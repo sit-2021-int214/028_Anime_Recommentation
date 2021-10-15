@@ -37,7 +37,7 @@ their completed list and give it a rating and this data set is a compilation of 
 
 ## 📚 Table of Contents
 
-1. [Exploratory Data Analysis](./term assignment [Group]/mid-term/exploratory.md)
+1. [Exploratory Data Analysis](https://github.com/sit-2021-int214/028_Anime_Recommentation/blob/master/term%20assignment%20%5BGroup%5D/mid-term/exploratory.md)
 2. [Data Visualization]()
 
 ## 📁 Resources
