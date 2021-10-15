@@ -4,9 +4,12 @@ Dataset from [anime_clean.csv](./anime_clean.csv)
 
 
 ### My Step
-1. Define a questionCancel changes
-2. Loading Library and dataset
-3. xxxxxxx
+1.Define a question
+2.Search datasets from Kaggle
+3.Download Library and dataset
+4.Explore the dataset from the original dataset
+5.Cleaning Dataset
+6.Exploratory Data Analysis
 
 ## Define a question
 
@@ -22,7 +25,11 @@ Dataset from [anime_clean.csv](./anime_clean.csv)
 
 ```
 #library
+library(readr)
+library(assertive)
+library(stringr)
 library(dplyr)
+library(tidyr)
 
 #dataset
 anime <- read.csv("D:/IT/IT Y.2/INT214 Stat for IT/R/Midterm assignment/anime_clean.csv)
