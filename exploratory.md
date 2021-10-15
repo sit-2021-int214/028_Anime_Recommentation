@@ -4,6 +4,7 @@ Dataset from [anime_clean.csv](./anime_clean.csv)
 
 
 ### My Step
+
 1.Define a question
 2.Search datasets from Kaggle
 3.Download Library and dataset
