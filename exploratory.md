@@ -70,21 +70,32 @@ anime_id name                                    genre          type  episodes r
 
 Explain here
 ```
-
+anime %>% count(genre,sort = TRUE) %>% head(n = 5L)
 ```
 Result
 ```
-
+  genre                     n
+  <chr>                 <int>
+1 Hentai                  785
+2 Comedy                  500
+3 Music                   297
+4 Kids                    190
+5 Comedy, Slice of Life   166
 ```
 
 ## 4.Anime เรื่องไหนบ้างที่มี Episodes มากกว่า 100 ตอน และมีคะแนนมากกว่า 8.5/10 คะแนน
 Explain
 ```
-
+anime %>% select(name,episodes,rating) %>% filter(episodes > 100 & rating > 8.50)
 ```
 Result
 ```
-
+  name                   episodes rating
+  <chr>                     <dbl>  <dbl>
+1 Hunter x Hunter (2011)      148   9.13
+2 Ginga Eiyuu Densetsu        110   9.11
+3 Gintama                     201   9.04
+4 Slam Dunk                   101   8.56
 ```
 
 ## 5. มี Anime ประเภท OVA ทั้่งหมดกี่เรื่องที่มี rating น้อยกว่า 5.0 
