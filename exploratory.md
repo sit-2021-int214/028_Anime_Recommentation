@@ -297,7 +297,7 @@ anime %>% separate_rows(genre) %>% count(genre) %>% print(n = 50)
 ```
 Result
 ```
-# A tibble: 48 x 2
+# A tibble: 47 x 2
    genre             n
    <chr>         <int>
  1 Action         2845
@@ -347,5 +347,4 @@ Result
 45 Vampire         102
 46 Yaoi             39
 47 Yuri             42
-48 NA               62
 ```
