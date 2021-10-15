@@ -8,8 +8,8 @@ Original Datasets from:
 This data set contains information on user preference data from 73,516 users on 12,294 anime. Each user is able to add anime to 
 their completed list and give it a rating and this data set is a compilation of those ratings.
 
-:bomb:
-## Overview
+
+## :bomb: Overview
 เหตุผลที่เราเลือกศึกษาข้อมูลเกี่ยวกับ Anime เนื่องจาก Anime ยังคงเป็นสิ่งที่ได้รับความนิยมเป็นอย่างมากตั้งแต่อดีตจนมาถึงปัจจุบัน อีกทั้งสมาชิกภายในกลุ่มของพวกเรายังมีความชื่นชอบในการดู Anime อยู่แล้ว กลุ่มของพวกเราจึงได้เลือกที่จะทำ dataset เกี่ยวกับ Anime โดยกลุ่มของเราเลือกชุดข้อมูลนี้เพราะต้องการศึกษาเกี่ยวกับ ความนิยมของและความชื่นชอบของ Anime แต่ละเรื่อง ประเภทของ Anime ที่มีอยู่ทั้งหมด รวมไปถึงในปัจจุบันผู้คนส่วนใหญ่ชอบดูอนิเมะประเภทใดมากที่สุด
 
 สิ่งที่อยากรู้ :
