@@ -34,12 +34,12 @@ their completed list and give it a rating and this data set is a compilation of 
 - R Language
 - R Studio Desktop
 
-## Table of Contents
+## 📚 Table of Contents
 
 1. [Exploratory Data Analysis](./exploratory.md)
 2. [Data Visualization]()
 
-## Resources
+## 📁 Resources
 
 ### Important Files in Repository
 
@@ -49,7 +49,6 @@ their completed list and give it a rating and this data set is a compilation of 
 
 ### References
 
-// Link
 
 ## :sunglasses: About Us
 
@@ -63,7 +62,7 @@ their completed list and give it a rating and this data set is a compilation of 
 |  3  | นาย วศิน สุขีทรัพย์   | 63130500104 |
 |  4  | นาย รุ่งภพ จรัสพัฒน์     | 63130500157 |
 
-### Instructor
+### 👨‍🏫 Instructor
 
 - ATCHARA TRAN-U-RAIKUL
 - JATAWAT XIE (Git: [safesit23](https://github.com/safesit23))
