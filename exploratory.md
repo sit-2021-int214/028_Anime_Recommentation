@@ -20,7 +20,7 @@ Dataset from [anime_clean.csv](./anime_clean.csv)
 4. Anime เรื่องไหนบ้างที่มี Episodes มากกว่า 100 ตอน และมีคะแนนมากกว่า 8.5/10 คะแนน
 5. มี Anime ประเภท OVA ทั้งหมดกี่เรื่องที่มี rating น้อยกว่า 5.0 
 6. มี Anime เรื่องใดบ้างที่ออกฉายทางโทรทัศน์และมีจำนวนตอนมากกว่า 100 ตอนขึ้นไป
-7. มีประเภทของ Anime ทั้งหมดกี่ประเภท และแต่ประเภทมี Anime ทั้งหมดอยู่กี่เรื่อง
+7. มีประเภทของ Anime ทั้งหมดกี่ประเภท และแต่ละประเภทมี Anime อยู่ทั้งหมดกี่เรื่อง
 
 
 ## Step 0 Loading library and dataset
@@ -281,12 +281,74 @@ name                                                  type  episodes rating
 157 Xiong Chu Mo Zhi Huanqiu Da Maoxian                   TV         104   6.33
 158 Youyou no Neko Tsumami                                TV         130   6.09
 ```
-## 7. มีประเภทของ Anime ทั้งหมดกี่ประเภท และแต่ละเภทมี Anime ทั้งหมดกี่เรื่อง
+##  7. มีประเภทของ Anime ทั้งหมดกี่ประเภท และแต่ละประเภทมี Anime อยู่ทั้งหมดกี่เรื่อง
 Explain
 ```
-
+anime %>% separate_rows(genre) %>% count(genre) %>% tally(!is.na(genre))
 ```
 Result
 ```
+# A tibble: 1 x 1
+      n
+  <int>
+1    47
+```
 
+Explain
+```
+anime %>% separate_rows(genre) %>% count(genre) %>% print(n = 50)
+```
+Result
+```
+# A tibble: 48 x 2
+   genre             n
+   <chr>         <int>
+ 1 Action         2845
+ 2 Adventure      2348
+ 3 Ai              120
+ 4 Arts            265
+ 5 Cars             72
+ 6 Comedy         4645
+ 7 Dementia        240
+ 8 Demons          294
+ 9 Drama          2016
+10 Ecchi           637
+11 Fantasy        2309
+12 Fi             2070
+13 Game            181
+14 Harem           317
+15 Hentai         1141
+16 Historical      806
+17 Horror          369
+18 Josei            54
+19 Kids           1609
+20 Life           1220
+21 Magic           778
+22 Martial         265
+23 Mecha           944
+24 Military        426
+25 Music           860
+26 Mystery         495
+27 of             1220
+28 Parody          408
+29 Police          197
+30 Power           465
+31 Psychological   229
+32 Romance        1464
+33 Samurai         148
+34 School         1220
+35 Sci            2070
+36 Seinen          547
+37 Shoujo          658
+38 Shounen        1777
+39 Slice          1220
+40 Space           381
+41 Sports          543
+42 Super           465
+43 Supernatural   1037
+44 Thriller         87
+45 Vampire         102
+46 Yaoi             39
+47 Yuri             42
+48 NA               62
 ```
