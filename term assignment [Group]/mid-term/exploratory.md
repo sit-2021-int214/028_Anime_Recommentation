@@ -34,7 +34,16 @@ library(tidyr)
 #dataset
 anime <- read.csv("D:/IT/IT Y.2/INT214 Stat for IT/R/Midterm assignment/anime_clean.csv)
 ```
+##Data Exploration
+```
 
+```
+##Data Cleaning and Data Transformation
+```
+
+```
+
+## Data Analysis with Descriptive Statistics
 ## 1.Anime เรื่องไหนที่มีจำนวนของกลุ่มผู้ติดตามมากที่สุด
 
 Explain here
