@@ -44,7 +44,7 @@ anime <- read.csv("D:/IT/IT Y.2/INT214 Stat for IT/R/Midterm assignment/anime_cl
 ```
 
 ## Data Analysis with Descriptive Statistics
-## 1.Anime เรื่องไหนที่มีจำนวนของกลุ่มผู้ติดตามมากที่สุด
+### 1.Anime เรื่องไหนที่มีจำนวนของกลุ่มผู้ติดตามมากที่สุด
 
 Explain here
 
