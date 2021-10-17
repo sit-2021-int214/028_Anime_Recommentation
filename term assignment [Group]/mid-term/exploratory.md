@@ -34,11 +34,11 @@ library(tidyr)
 #dataset
 anime <- read.csv("D:/IT/IT Y.2/INT214 Stat for IT/R/Midterm assignment/anime_clean.csv)
 ```
-##Data Exploration
+## Data Exploration
 ```
 
 ```
-##Data Cleaning and Data Transformation
+## Data Cleaning and Data Transformation
 ```
 
 ```
