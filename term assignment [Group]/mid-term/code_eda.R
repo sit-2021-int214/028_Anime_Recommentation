@@ -2,7 +2,7 @@ library(dplyr)
 library(readr)
 library(assertive)
 library(stringr)
-anime <- read_csv("https://raw.githubusercontent.com/sit-2021-int214/028_Anime_Recommentation/master/anime_recommendation.csv")
+anime <- read_csv("https://raw.githubusercontent.com/sit-2021-int214/028_Anime_Recommentation/master/term%20assignment%20%5BGroup%5D/mid-term/anime_recommendation.csv")
 as_tibble(anime)
 glimpse(anime) 
 
