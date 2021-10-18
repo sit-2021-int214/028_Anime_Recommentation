@@ -378,6 +378,7 @@ name                                                  type  episodes rating
 ###  7. มีประเภทของ Anime ทั้งหมดกี่ประเภท และแต่ละประเภทมี Anime อยู่ทั้งหมดกี่เรื่อง
 Explain
 ```
+library(tidyr)
 anime %>% separate_rows(genre) %>% count(genre) %>% tally(!is.na(genre))
 ```
 Result
