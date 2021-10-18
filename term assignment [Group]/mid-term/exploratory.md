@@ -35,34 +35,20 @@ library(tidyr)
 anime <- read.csv("D:/IT/IT Y.2/INT214 Stat for IT/R/Midterm assignment/anime_clean.csv)
 ```
 ## Data Exploration
-```
-View(anime)
-glimpse(anime);
-```
-```
-Rows: 11,830
-Columns: 7
-$ anime_id <dbl> 32281, 5114, 28977, 9253, 9969, 32935, 11061, 820, 15335, 15417, 4~
-$ name     <chr> "Kimi no Na wa.", "Fullmetal Alchemist: Brotherhood", "Gintama°", ~
-$ genre    <chr> "Drama, Romance, School, Supernatural", "Action, Adventure, Drama,~
-$ type     <chr> "Movie", "TV", "TV", "TV", "TV", "TV", "TV", "OVA", "Movie", "TV",~
-$ episodes <fct> 1, 64, 51, 24, 51, 10, 148, 110, 1, 13, 24, 1, 201, 25, 25, 1, 22,~
-$ rating   <dbl> 9.37, 9.26, 9.25, 9.17, 9.16, 9.15, 9.13, 9.11, 9.10, 9.11, 9.06, ~
-$ members  <dbl> 200630, 793665, 114262, 673572, 151266, 93351, 425855, 80679, 7253~`
-```
-1. anime_id - myanimelist.net's unique id identifying an anime.
+
+1. ***anime_id*** - myanimelist.net's unique id identifying an anime.
    - เป็นข้อมูลประเภท Numeric
-2. name - full name of anime.
+2. ***name*** - full name of anime.
    - เป็นข้อมูลประเภท Character
-3. genre - comma separated list of genres for this anime.
+3. ***genre*** - comma separated list of genres for this anime.
    - เป็นข้อมูลประเภท Character
-4. type - movie, TV, OVA, etc.
+4. ***type*** - movie, TV, OVA, etc.
    - เป็นข้อมูลประเภท Character
-5. episodes - how many episodes in this show. (1 if movie).
+5. ***episodes*** - how many episodes in this show. (1 if movie).
    - เป็นข้อมูลประเภท Character
-6. rating - average rating out of 10 for this anime.
+6. ***rating*** - average rating out of 10 for this anime.
    - เป็นข้อมูลประเภท Numeric
-7. members - number of community members that are in this anime's "group".
+7. ***members*** - number of community members that are in this anime's "group".
    - เป็นข้อมูลประเภท Numeric
 
 ## Data Cleaning and Data Transformation
