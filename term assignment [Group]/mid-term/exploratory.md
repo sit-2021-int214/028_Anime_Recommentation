@@ -29,7 +29,9 @@ Dataset from [anime_clean.csv](./anime_clean.csv)
 ```
 #library
 library(dplyr)
-library(tidyr)
+library(readr)
+library(assertive)
+library(stringr)
 
 #dataset
 anime <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/028_Anime_Recommentation/master/term%20assignment%20%5BGroup%5D/mid-term/anime_recommendation.csv")
@@ -40,7 +42,6 @@ anime <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/028_Anime_R
 ##Explore the dataset
 View(anime)
 glimpse(anime)
-
 ```
 ```
 > glimpse(anime);
@@ -53,8 +54,8 @@ $ type     <chr> "Movie", "TV", "TV", "TV", "TV", "TV", "TV", "OVA", "Movie", "T
 $ episodes <chr> "1", "64", "51", "24", "51", "10", "148", "110", "1", "13", "24~
 $ rating   <dbl> 9.37, 9.26, 9.25, 9.17, 9.16, 9.15, 9.13, 9.11, 9.10, 9.11, 9.0~
 $ members  <dbl> 200630, 793665, 114262, 673572, 151266, 93351, 425855, 80679, 7~
-
 ```
+
 จำนวนข้อมูลเริ่มต้นมีทั้งหมด 12,294 Rows และมีทั้งหมด 7 Columns ดังนี้
 1. ***anime_id*** - myanimelist.net's unique id identifying an anime.
    - เป็นข้อมูลประเภท Numeric
