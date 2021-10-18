@@ -37,19 +37,19 @@ anime <- read.csv("D:/IT/IT Y.2/INT214 Stat for IT/R/Midterm assignment/anime_cl
 ## Data Exploration
 
 1. anime_id - myanimelist.net's unique id identifying an anime.
-- เป็นข้อมูลประเภท Numeric
+   - เป็นข้อมูลประเภท Numeric
 2. name - full name of anime.
-- เป็นข้อมูลประเภท Character
+   - เป็นข้อมูลประเภท Character
 3. genre - comma separated list of genres for this anime.
-- เป็นข้อมูลประเภท Character
+   - เป็นข้อมูลประเภท Character
 4. type - movie, TV, OVA, etc.
-- เป็นข้อมูลประเภท Character
+   - เป็นข้อมูลประเภท Character
 5. episodes - how many episodes in this show. (1 if movie).
-- เป็นข้อมูลประเภท Character
+   - เป็นข้อมูลประเภท Character
 6. rating - average rating out of 10 for this anime.
-- เป็นข้อมูลประเภท Numeric
+   - เป็นข้อมูลประเภท Numeric
 7. members - number of community members that are in this anime's "group".
-- เป็นข้อมูลประเภท Numeric
+   - เป็นข้อมูลประเภท Numeric
 
 ## Data Cleaning and Data Transformation
 ### 1. Checking the types of values
