@@ -34,6 +34,8 @@ library(tidyr)
 #dataset
 anime <- read.csv("D:/IT/IT Y.2/INT214 Stat for IT/R/Midterm assignment/anime_clean.csv)
 ```
+
+## Data Exploration
 ```
 ##Explore the dataset
 View(superstore)
@@ -53,8 +55,6 @@ $ rating   <dbl> 9.37, 9.26, 9.25, 9.17, 9.16, 9.15, 9.13, 9.11, 9.10, 9.11, 9.0
 $ members  <dbl> 200630, 793665, 114262, 673572, 151266, 93351, 425855, 80679, 7253~
 
 ```
-## Data Exploration
-
 1. ***anime_id*** - myanimelist.net's unique id identifying an anime.
    - เป็นข้อมูลประเภท Numeric
 2. ***name*** - full name of anime.
