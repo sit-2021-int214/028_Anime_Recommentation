@@ -54,7 +54,7 @@ anime <- read.csv("D:/IT/IT Y.2/INT214 Stat for IT/R/Midterm assignment/anime_cl
 ## Data Cleaning and Data Transformation
 ### 1. Checking the types of values
 ```
-is.numeric(anime$anime_id)
+`is.numeric(anime$anime_id)
 is.numeric(anime$episodes)
 is.numeric(anime$rating)
 is.numeric(anime$members)
@@ -66,7 +66,7 @@ anime$type %>% assert_is_character()
 anime$anime_id %>% assert_is_numeric()
 anime$episodes %>% assert_is_numeric()
 anime$rating %>% assert_is_numeric()
-anime$members %>% assert_is_numeric()
+anime$members %>% assert_is_numeric()`
 ```
 เช็ค Datatype ของแต่ละ Column
 
