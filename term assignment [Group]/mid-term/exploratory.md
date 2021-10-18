@@ -35,7 +35,7 @@ library(tidyr)
 anime <- read.csv("D:/IT/IT Y.2/INT214 Stat for IT/R/Midterm assignment/anime_clean.csv)
 ```
 ## Data Exploration
-```
+
 1. anime_id - myanimelist.net's unique id identifying an anime.
 - เป็นข้อมูลประเภท Numeric
 2. name - full name of anime.
@@ -50,7 +50,7 @@ anime <- read.csv("D:/IT/IT Y.2/INT214 Stat for IT/R/Midterm assignment/anime_cl
 - เป็นข้อมูลประเภท Numeric
 7. members - number of community members that are in this anime's "group".
 - เป็นข้อมูลประเภท Numeric
-```
+
 ## Data Cleaning and Data Transformation
 ### 1. Checking the types of values
 ```
