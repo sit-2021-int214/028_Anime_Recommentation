@@ -39,7 +39,7 @@ anime <- read.csv("D:/IT/IT Y.2/INT214 Stat for IT/R/Midterm assignment/anime_cl
 
 ```
 ## Data Cleaning and Data Transformation
-1. Checking the types of values
+###1. Checking the types of values
 ```
 is.numeric(anime$anime_id)
 is.numeric(anime$episodes)
@@ -57,20 +57,20 @@ anime$members %>% assert_is_numeric()
 ```
 เช็ค Datatype ของแต่ละ Column
 
-2. Changing the types of values
+###2. Changing the types of values
 ```
 anime$episodes <- as.factor(anime$episodes)
 ```
 เปลี่ยน Datatype ของ Column Episodes เป็น Factor 
 
-3. Checking and delete duplicate data
+###3. Checking and delete duplicate data
 ```
 anime %>% duplicated() %>% table()
 anime <- anime %>% distinct()
 ```
 เช็คหา Columns ที่มีค่าซ้ำกัน
 
-4. Handling missing data
+###4. Handling missing data
 ```
 is.na(anime$anime_id) %>% sum()
 is.na(anime$name) %>% sum()
@@ -82,13 +82,14 @@ is.na(anime$members) %>% sum()
 ```
 หาค่า NA ของแต่ละ Columns
 
-5. Delete columns NA values
+###5. Delete columns NA values
 ```
 anime$episodes <- replace(anime$episodes,anime$episodes == 'Unknown', NA)
 anime <- anime %>% na.omit()
 ```
 ลบ Columns ทั้งหมดที่มีค่า NA 
-6. Outliers data & Range Values
+
+###6. Outliers data & Range Values
 ```
 anime$rating <- assert_all_are_in_closed_range(anime$rating, lower = 0, upper = 10)
 ```
