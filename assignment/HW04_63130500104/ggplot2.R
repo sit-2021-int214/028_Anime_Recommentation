@@ -44,13 +44,12 @@ Page_plot <- Page_plot %>% ggplot(aes(x = fct_infreq(Type),y = Number_Of_Pages,f
 
 Page_plot + ggtitle("Number Of Pages average of Type Book") + xlab("Type") + ylab("Number Of Pages average")
 
-#plot2 the average price of each book type?
+#plot2 Book price charts go up and down about ratings and reviews.
 
-bookPrice_plot <- books %>% mutate(Type = fct_lump(Type,n=5)) %>%  group_by(Type) %>%
-  summarise(Price = mean(Price, na.rm = TRUE))
+bookPrice_plot <- books %>% select(Book_title,Price,Reviews,Rating) %>% filter(Reviews > mean(Reviews, na.rm = TRUE))
 
-bookPrice_plot <- bookPrice_plot %>% ggplot(aes(x = Type,y = Price)) + geom_point(aes(color=Type)) + coord_flip() 
+bookPrice_plot <- bookPrice_plot %>% ggplot(aes(x = Rating,y = Reviews,color=Price)) + geom_line() + geom_point()
 
-bookPrice_plot + ggtitle("Price Average of Type Book") +
-  xlab("Type") + ylab("Price average")
+bookPrice_plot + ggtitle("Book price charts go up and down about ratings and reviews.") +
+  xlab("Rating") + ylab("Reviews")
 
