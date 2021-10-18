@@ -32,29 +32,30 @@ library(dplyr)
 library(tidyr)
 
 #dataset
-anime <- read.csv("D:/IT/IT Y.2/INT214 Stat for IT/R/Midterm assignment/anime_clean.csv)
+anime <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/028_Anime_Recommentation/master/term%20assignment%20%5BGroup%5D/mid-term/anime_recommendation.csv")
 ```
 
 ## Data Exploration
 ```
 ##Explore the dataset
-View(superstore)
-glimpse(superstore)
+View(anime)
+glimpse(anime)
 
 ```
 ```
 > glimpse(anime);
-Rows: 11,830
+Rows: 12,294
 Columns: 7
-$ anime_id <dbl> 32281, 5114, 28977, 9253, 9969, 32935, 11061, 820, 15335, 15417, 4~
-$ name     <chr> "Kimi no Na wa.", "Fullmetal Alchemist: Brotherhood", "Gintama°", ~
-$ genre    <chr> "Drama, Romance, School, Supernatural", "Action, Adventure, Drama,~
-$ type     <chr> "Movie", "TV", "TV", "TV", "TV", "TV", "TV", "OVA", "Movie", "TV",~
-$ episodes <fct> 1, 64, 51, 24, 51, 10, 148, 110, 1, 13, 24, 1, 201, 25, 25, 1, 22,~
-$ rating   <dbl> 9.37, 9.26, 9.25, 9.17, 9.16, 9.15, 9.13, 9.11, 9.10, 9.11, 9.06, ~
-$ members  <dbl> 200630, 793665, 114262, 673572, 151266, 93351, 425855, 80679, 7253~
+$ anime_id <dbl> 32281, 5114, 28977, 9253, 9969, 32935, 11061, 820, 15335, 15417~
+$ name     <chr> "Kimi no Na wa.", "Fullmetal Alchemist: Brotherhood", "Gintama°~
+$ genre    <chr> "Drama, Romance, School, Supernatural", "Action, Adventure, Dra~
+$ type     <chr> "Movie", "TV", "TV", "TV", "TV", "TV", "TV", "OVA", "Movie", "T~
+$ episodes <chr> "1", "64", "51", "24", "51", "10", "148", "110", "1", "13", "24~
+$ rating   <dbl> 9.37, 9.26, 9.25, 9.17, 9.16, 9.15, 9.13, 9.11, 9.10, 9.11, 9.0~
+$ members  <dbl> 200630, 793665, 114262, 673572, 151266, 93351, 425855, 80679, 7~
 
 ```
+จำนวนข้อมูลเริ่มต้นมีทั้งหมด 12,294 Rows และมีทั้งหมด 7 Columns ดังนี้
 1. ***anime_id*** - myanimelist.net's unique id identifying an anime.
    - เป็นข้อมูลประเภท Numeric
 2. ***name*** - full name of anime.
