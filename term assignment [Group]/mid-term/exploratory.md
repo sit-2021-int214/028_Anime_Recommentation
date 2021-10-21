@@ -476,9 +476,9 @@ Name                |                                 Type  |       Episodes  | 
  68 Gegege no Kitarou (1996)                  |            TV     |    114 |  6.79
  69 Chirorin Mura Monogatari                  |            TV     |    170  | 6.78
  70 Esper Mami                                |            TV     |    119  | 6.78
- 71 Gegege no Kitarou (1985)                  |            TV     |    108 |  6.77|
+ 71 Gegege no Kitarou (1985)                  |            TV     |    108 |  6.77
  72 Time Bokan Series: Yatterman               |           TV    |     108  | 6.76
- 73 Warau Salesman                             |           TV     |    103   |6.76
+ 73 Warau Salesman                             |           TV     |    103  | 6.76
  74 Ganso Tensai Bakabon                      |            TV     |    103 |  6.75
  75 Line Offline: Salaryman                   |            TV     |    114 |  6.75
  76 Dokonjou Gaeru                            |            TV     |    103   |6.74
@@ -551,10 +551,10 @@ Name                |                                 Type  |       Episodes  | 
 143 Robotan                                       |        TV    |      104 |   6.54
 144 Roppou Yabure-kun                            |         TV    |      110  |  6.75
 145 Sekai Monoshiri Ryoko                        |         TV      |   1006 |   5.92
-146 Shimajirou Hesoka                            |         TV     |     101|    6.6 
+146 Shimajirou Hesoka                            |         TV     |     101 |    6.6 
 147 Sobakasu Pucchi                                 |      TV   |     162   | 7.18
 148 Susie-chan to Marvy                           |        TV    |     104  | 6.69
-149 Tetsujin 28-gou Gao!                          |        TV     |    151  | 7.33|
+149 Tetsujin 28-gou Gao!                          |        TV     |    151  | 7.33
 150 Tobidase! Bacchiri                            |        TV     |    132  | 7.63
 151 Uchi no 3 Shimai                              |        TV     |    141  | 6.68
 152 Ultra B                                        |       TV     |    119  | 5.52
