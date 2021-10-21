@@ -523,7 +523,7 @@ Name                |                                 Type  |       Episodes  | 
 115 Hoshi no Ko Poron                             |        TV  |       260 |  6.76
 116 Inakappe Taishou                              |        TV   |      104  | 6.8 
 117 Instant History                               |        TV     |    312 |  6.68
-118 Itazura Tenshi Chippo-chan                    |        TV   | |    240  | 7.33
+118 Itazura Tenshi Chippo-chan                    |        TV   |    240  | 7.33
 119 Johnny Cypher                                 |        TV     |    130  | 6.86
 120 Kaiketsu Tamagon                              |        TV    |     195  | 5.65
 121 Kaitou Pride                                  |        TV    |     105 |  6.75
