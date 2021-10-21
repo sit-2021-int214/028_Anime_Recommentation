@@ -427,14 +427,14 @@ Name                |                                 Type  |       Episodes  | 
  19 Bleach                                       |         TV      |   366  | 7.95
  20 Keroro Gunsou                                |         TV     |    358   |7.93
  21 Lupin III: Part II                          |          TV    |     155  | 7.93
- 22 Chi&#039;s Sweet Home: Atarashii Ouchi       |         TV     |    104   7.9 
+ 22 Chi&#039;s Sweet Home: Atarashii Ouchi       |         TV     |    104  | 7.9 
  23 Ginga Tetsudou 999                          |          TV     |    113  | 7.9 
  24 InuYasha                                 |             TV     |    167   |7.89
  25 Ranma <U+00BD>                           |             TV     |    161 |  7.87
  26 Chibi Maruko-chan                        |             TV   |    142 |  7.86
- 27 Chi&#039;s Sweet Home                     |            TV    |    104   |7.83
+ 27 Chi&#039;s Sweet Home                     |            TV    |    104   | 7.83
  28 Kochira Katsushikaku Kameari Kouenmae Hashutsujo (TV) |TV     |    373  | 7.82
- 29 Naruto                                   |             TV     |    220   7.81
+ 29 Naruto                                   |             TV     |    220 |  7.81
  30 Urusei Yatsura                           |             TV   |     195  | 7.78
  31 Doraemon (1979)                          |             TV    |    1787  | 7.76
  32 Toriko                                   |             TV   |     147  | 7.74
@@ -463,10 +463,10 @@ Name                |                                 Type  |       Episodes  | 
  55 Pokemon Advanced Generation                |           TV    |     192 |  7.2 
  56 Tsurikichi Sanpei                        |             TV    |     109  | 7.17
  57 Kyojin no Hoshi                           |            TV      |   182 |  7.12
- 58 Kagaku Ninja-tai Gatchaman                |            TV       |  105   7.1 
+ 58 Kagaku Ninja-tai Gatchaman                |            TV       |  105  | 7.1 
  59 Hai! Akko Desu                            |            TV     |    164  | 7.08
- 60 Ikkyuu-san                                |            TV     |    296   7.05
- 61 Tsuyoshi Shikkari Shinasai                |            TV    |     112   7.05
+ 60 Ikkyuu-san                                |            TV     |    296  | 7.05
+ 61 Tsuyoshi Shikkari Shinasai                |            TV    |     112   | 7.05
  62 Tottoko Hamtarou                           |           TV      |   296  | 7.03
  63 Ninja Hattori-kun                          |           TV     |   694  | 6.92
  64 Attack No.1                                 |          TV    |     104  | 6.85
@@ -481,7 +481,7 @@ Name                |                                 Type  |       Episodes  | 
  73 Warau Salesman                             |           TV     |    103  | 6.76
  74 Ganso Tensai Bakabon                      |            TV     |    103 |  6.75
  75 Line Offline: Salaryman                   |            TV     |    114 |  6.75
- 76 Dokonjou Gaeru                            |            TV     |    103   |6.74
+ 76 Dokonjou Gaeru                            |            TV     |    103  | 6.74
  77 Pokonyan!                                   |          TV    |     170 |  6.74
  78 Meme Iroiro Yume no Tabi                  |            TV    |     127 |  6.67
  79 Chou Tokkyuu Hikarian                    |             TV   |      156 |  6.66
@@ -497,13 +497,13 @@ Name                |                                 Type  |       Episodes  | 
  89 Tentou Mushi no Uta                          |         TV     |    104 |  6.48
  90 O-bake no... Holly                            |        TV    |     200 |  6.42
  91 Perman (1983)                                 |        TV     |    526 |  6.34
- 92 Tamagotchi!                                    |       TV     |    143   |6.3 
+ 92 Tamagotchi!                                    |       TV     |    143  | 6.3 
  93 Shima Shima Tora no Shimajirou                |        TV    |     726 |  6.25
  94 Oishinbo                                      |        TV     |    136  | 6.24
  95 Hey! Bumboo                                   |        TV     |    130  | 6.2 
  96 Oyako Club                                    |        TV     |   1818  | 6.18
  97 Mazinger ZIP!                                 |        TV    |     237 |  6.14
- 98 Hoka Hoka Kazoku                              |        TV     |   1428|   6.05
+ 98 Hoka Hoka Kazoku                              |        TV     |   1428 |   6.05
  99 Charady no Joke na Mainichi                   |        TV     |    365  | 5.48
 100 Bouken Shounen Shadar                         |        TV      |   156  | 6.65
 101 Chengyu Donghua Lang                          |        TV     |    180  | 6.04
@@ -525,7 +525,7 @@ Name                |                                 Type  |       Episodes  | 
 117 Instant History                               |        TV     |    312 |  6.68
 118 Itazura Tenshi Chippo-chan                    |        TV   | |    240  | 7.33
 119 Johnny Cypher                                 |        TV     |    130  | 6.86
-120 Kaiketsu Tamagon                              |        TV    |     195   |5.65
+120 Kaiketsu Tamagon                              |        TV    |     195  | 5.65
 121 Kaitou Pride                                  |        TV    |     105 |  6.75
 122 Kappamaki                                     |        TV    |     130 |  5.43
 123 Kirin Ashita no Calendar                       |       TV    |    1306 |  6.43
@@ -539,16 +539,16 @@ Name                |                                 Type  |       Episodes  | 
 131 Miracle! Mimika                              |         TV    |     225 |  5.28
 132 Monoshiri Daigaku: Ashita no Calendar        |         TV      |  1274  | 6.8 
 133 Ninja-tai Gatchaman ZIP!                      |        TV     |     475  |  5.5 
-134 Non-tan to Issho                              |        TV    |      263 |   6.84
-135 Obocchama-kun                                 |        TV    |      164 |   6.47
-136 Oden-kun                                      |        TV   |       156 |   7.36
-137 Ojamanga Yamada-kun                           |        TV    |      103 |   7.77
-138 Otogi Manga Calendar                          |        TV    |      312 |   6.11
-139 Otoko Doahou! Koushien                        |        TV    |      156 |   6.6 
-140 Otoko Ippiki Gaki Daishou                      |       TV    |      156 |   7.2 
-141 Pinch to Punch                                |        TV   |       156 |   5.71
+134 Non-tan to Issho                              |        TV    |      263  |  6.84
+135 Obocchama-kun                                 |        TV    |      164  |  6.47
+136 Oden-kun                                      |        TV   |       156  |  7.36
+137 Ojamanga Yamada-kun                           |        TV    |      103  |  7.77
+138 Otogi Manga Calendar                          |        TV    |      312  |  6.11
+139 Otoko Doahou! Koushien                        |        TV    |      156  |  6.6 
+140 Otoko Ippiki Gaki Daishou                      |       TV    |      156  |  7.2 
+141 Pinch to Punch                                |        TV   |       156  |  5.71
 142 Pro Golfer Saru (1985)                        |        TV     |     143  |  6.77
-143 Robotan                                       |        TV    |      104 |   6.54
+143 Robotan                                       |        TV    |      104  |   6.54
 144 Roppou Yabure-kun                            |         TV    |      110  |  6.75
 145 Sekai Monoshiri Ryoko                        |         TV      |   1006 |   5.92
 146 Shimajirou Hesoka                            |         TV     |     101 |    6.6 
