@@ -553,7 +553,7 @@ Name                |                                 Type  |       Episodes  | 
 145 Sekai Monoshiri Ryoko                        |         TV      |   1006 |   5.92
 146 Shimajirou Hesoka                            |         TV     |     101|    6.6 
 147 Sobakasu Pucchi                                 |      TV   |     162   | 7.18
-148 Susie-chan to Marvy                           |        TV    |     104   6.69
+148 Susie-chan to Marvy                           |        TV    |     104  | 6.69
 149 Tetsujin 28-gou Gao!                          |        TV     |    151  | 7.33|
 150 Tobidase! Bacchiri                            |        TV     |    132  | 7.63
 151 Uchi no 3 Shimai                              |        TV     |    141  | 6.68
