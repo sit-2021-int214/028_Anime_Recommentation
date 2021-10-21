@@ -425,7 +425,7 @@ Name                |                                 Type  |       Episodes  | 
  18 Kindaichi Shounen no Jikenbo (TV)           |          TV     |    148 |  7.96
  19 Bleach                                       |         TV      |   366  | 7.95
  20 Keroro Gunsou                                |         TV     |    358   |7.93
- 21 Lupin III: Part II                          ||          TV    |     155  | 7.93
+ 21 Lupin III: Part II                          |          TV    |     155  | 7.93
  22 Chi&#039;s Sweet Home: Atarashii Ouchi       |         TV     |    104   7.9 
  23 Ginga Tetsudou 999                          |          TV     |    113  | 7.9 
  24 InuYasha                                 |             TV     |    167   |7.89
