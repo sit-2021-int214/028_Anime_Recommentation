@@ -17,7 +17,7 @@ Dataset from [anime_clean.csv](./anime_clean.csv)
 
 1. Anime เรื่องไหนที่มีจำนวนของกลุ่มผู้ติดตามมากที่สุด
 2. Anime เรื่องไหนที่มีคะแนน rating มากที่สุด
-3. 5 อันดับแรกของ Anime แนวเรื่องไหน ที่ผลิตออกมามากที่สุด
+3. 5 อันดับแรกของ Anime แนวไหนที่ผลิตออกมามากที่สุด
 4. Anime เรื่องไหนบ้างที่มี Episodes มากกว่า 100 ตอน และมีคะแนนมากกว่า 8.5/10 คะแนน
 5. มี Anime ประเภท OVA ทั้งหมดกี่เรื่องที่มี rating น้อยกว่า 5.0 
 6. มี Anime เรื่องใดบ้างที่ออกฉายทางโทรทัศน์และมีจำนวนตอนมากกว่า 100 ตอนขึ้นไป
@@ -145,7 +145,10 @@ Result
      <dbl> <chr>      <chr>                                                  <chr>    <dbl>  <dbl>   <dbl>
 1     1535 Death Note Mystery, Police, Psychological, Supernatural, Thriller TV          37   8.71 1013917
 ```
-
+Summary
+```
+จากการสำรวจข้อมูลพบว่า Anime ที่มีจำนวนกลุ่มผู้ติดตามมากที่สุดคือ Death Note ซึ่งมีจำนวนกลุ่มผู้ติดตามอยู่ทั้งหมด 1013917 กลุ่ม
+```
 
 ### 2.Anime เรื่องไหนที่มีคะแนน rating มากที่สุด
 
@@ -159,9 +162,12 @@ anime_id name                                    genre          type  episodes r
      <dbl> <chr>                                   <chr>          <chr>    <dbl>  <dbl>   <dbl>
 1    33662 Taka no Tsume 8: Yoshida-kun no X-Files Comedy, Parody Movie        1     10      13
 ```
+Summary
+```
+จากการสำรวจข้อมูลพบว่า Anime ที่มีคะแนน rating มากที่สุดคือ Taka no Tsume 8 ซึ่งมี rating อยู่ที่ 10
+```
 
-
-### 3. 5 อันดับแรกของ Anime แนวเรื่องไหน ที่ผลิตออกมามากที่สุด
+### 3. 5 อันดับแรกของ Anime แนวไหนที่ผลิตออกมามากที่สุด
 
 Explain here
 ```
@@ -178,6 +184,10 @@ Result
 4 Fantasy    2219
 5 Fi         2028
 ```
+Summary
+```
+
+```
 
 ### 4.Anime เรื่องไหนบ้างที่มี Episodes มากกว่า 100 ตอน และมีคะแนนมากกว่า 8.5/10 คะแนน
 Explain
@@ -193,8 +203,11 @@ Result
 3 Gintama                     201   9.04
 4 Slam Dunk                   101   8.56
 ```
+Summary
+```
 
-### 5. มี Anime ประเภท OVA ทั้่งหมดกี่เรื่องที่มี rating น้อยกว่า 5.0 
+```
+### 5. มี Anime ประเภท OVA ทั้งหมดกี่เรื่องที่มี rating น้อยกว่า 5.0 
 Explain
 ```
 anime %>% filter(type == 'OVA' & rating < 5.0) %>% count();
@@ -205,6 +218,10 @@ Result
       n
   <int>
 1   148
+```
+Summary
+```
+จากการสำรวจข้อมูลพบว่า มี Anime ที่เป็นประเภท OVA ทั้งหมด 148 เรื่อง ที่มี rating น้อยกว่า 5.0
 ```
 
 ### 6. มี Anime เรื่องใดบ้างที่ออกฉายทางโทรทัศน์และมีจำนวนตอนมากกว่า 100 ตอนขึ้นไป
@@ -375,6 +392,10 @@ name                                                  type  episodes rating
 157 Xiong Chu Mo Zhi Huanqiu Da Maoxian                   TV         104   6.33
 158 Youyou no Neko Tsumami                                TV         130   6.09
 ```
+Summary
+```
+
+```
 ###  7. มีประเภทของ Anime ทั้งหมดกี่ประเภท และแต่ละประเภทมี Anime อยู่ทั้งหมดกี่เรื่อง
 Explain
 ```
@@ -445,4 +466,8 @@ Result
 45 Vampire         102
 46 Yaoi             39
 47 Yuri             42
+```
+Summary
+```
+
 ```
