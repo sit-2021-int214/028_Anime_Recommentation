@@ -146,7 +146,7 @@ Result
 ```
 Summary
 ```
-จากการสำรวจข้อมูลพบว่า Anime ที่มีจำนวนกลุ่มผู้ติดตามมากที่สุดคือ Death Note ซึ่งมีจำนวนกลุ่มผู้ติดตามอยู่ทั้งหมด 1013917 กลุ่ม
+Anime ที่มีจำนวนกลุ่มผู้ติดตามมากที่สุดคือ Death Note ซึ่งมีจำนวนกลุ่มผู้ติดตามอยู่ทั้งหมด 1013917 กลุ่ม
 ```
 
 ### 2.Anime เรื่องไหนที่มีคะแนน rating มากที่สุด
@@ -163,7 +163,7 @@ anime_id name                                    genre          type  episodes r
 ```
 Summary
 ```
-จากการสำรวจข้อมูลพบว่า Anime ที่มีคะแนน rating มากที่สุดคือ Taka no Tsume 8 ซึ่งมี rating อยู่ที่ 10
+Anime ที่มีคะแนน rating มากที่สุดคือ Taka no Tsume 8 ซึ่งมี rating อยู่ที่ 10
 ```
 
 ### 3. 5 อันดับแรกของ Anime แนวไหนที่ผลิตออกมามากที่สุด
@@ -468,5 +468,54 @@ Result
 ```
 Summary
 ```
-
+มีประเภท Anime ใน dataset ทั้งหมด 47 ประเภท ซึ่งแต่ละประเภทจะมีจำนวนเรื่องทั้งหมดดังตารางนี้
 ```
+  Genre   |  n
+------    | ------ 
+Action      |   2845
+Adventure   |   2348
+Ai           |   120
+Arts       |     265
+Cars       |      72
+Comedy     |    4645
+Dementia   |     240
+Demons     |     294
+Drama     |     2016
+Ecchi      |     637
+Fantasy   |     2309
+Fi        |     2070
+Game      |      181
+Harem      |     317
+Hentai     |    1141
+Historical  |    806
+Horror     |     369
+Josei     |       54
+Kids     |      1609
+Life      |     1220
+Magic      |     778
+Martial    |     265
+Mecha      |     944
+Military   |     426
+Music      |     860
+Mystery    |     495
+of         |    1220
+Parody     |     408
+Police     |     197
+Power      |     465
+Psychological |  229
+Romance   |     1464
+Samurai    |     148
+School     |    1220
+Sci        |    2070
+ Seinen     |     547
+Shoujo     |     658
+Shounen    |    1777
+Slice      |    1220
+Space      |     381
+Sports      |    543
+Super      |     465
+Supernatural  | 1037
+Thriller    |     87
+Vampire     |    102
+Yaoi        |     39
+Yuri        |     42
