@@ -185,7 +185,12 @@ Result
 ```
 Summary
 ```
-
+5 อันดับแรกของ Anime ที่ผลิตออกมามากที่สุดมีดังนี้
+1. Comedy 
+2. Action
+3. Adventure
+4. Fantasy    
+5. Fi   
 ```
 
 ### 4.Anime เรื่องไหนบ้างที่มี Episodes มากกว่า 100 ตอน และมีคะแนนมากกว่า 8.5/10 คะแนน
@@ -204,6 +209,12 @@ Result
 ```
 Summary
 ```
+Anime ที่มี Episodes มากกว่า 100 ตอน และมีคะแนนมากกว่า 8.5 มีดังนี้
+
+1. Hunter x Hunter (2011) มีจำนวน episodes อยู่ที่ 148 episodes rating อยู่ที่ 9.13   
+2. Ginga Eiyuu Densetsu  มีจำนวน episodes อยู่ที่ 110 episodes rating อยู่ที่ 9.11      
+3. Gintama มีจำนวน episodes อยู่ที่ 201 episodes rating อยู่ที่ 9.04    
+4. Slam Dunk  มีจำนวน episodes อยู่ที่ 101 episodes rating อยู่ที่ 8.56                   
 
 ```
 ### 5. มี Anime ประเภท OVA ทั้งหมดกี่เรื่องที่มี rating น้อยกว่า 5.0 
