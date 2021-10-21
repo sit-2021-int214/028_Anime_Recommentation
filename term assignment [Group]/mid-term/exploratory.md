@@ -174,7 +174,6 @@ anime %>% separate_rows(genre) %>% count(genre,sort = TRUE) %>% head(n = 5L)
 ```
 Result
 ```
-# A tibble: 5 x 2
   genre         n
   <chr>     <int>
 1 Comedy     4483
@@ -224,14 +223,13 @@ anime %>% filter(type == 'OVA' & rating < 5.0) %>% count();
 ```
 Result
 ```
-# A tibble: 1 x 1
       n
   <int>
 1   148
 ```
 Summary
 ```
-จากการสำรวจข้อมูลพบว่า มี Anime ที่เป็นประเภท OVA ทั้งหมด 148 เรื่อง ที่มี rating น้อยกว่า 5.0
+มี Anime ที่เป็นประเภท OVA ทั้งหมด 148 เรื่อง ที่มี rating น้อยกว่า 5.0
 ```
 
 ### 6. มี Anime เรื่องใดบ้างที่ออกฉายทางโทรทัศน์และมีจำนวนตอนมากกว่า 100 ตอนขึ้นไป
@@ -414,7 +412,6 @@ anime %>% separate_rows(genre) %>% count(genre) %>% tally(!is.na(genre))
 ```
 Result
 ```
-# A tibble: 1 x 1
       n
   <int>
 1    47
@@ -426,7 +423,6 @@ anime %>% separate_rows(genre) %>% count(genre) %>% print(n = 50)
 ```
 Result
 ```
-# A tibble: 47 x 2
    genre             n
    <chr>         <int>
  1 Action         2845
