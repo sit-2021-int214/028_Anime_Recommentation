@@ -6,11 +6,10 @@ Dataset from [anime_clean.csv](./anime_clean.csv)
 ### My Step
 
 1. Define a question
-2. Search datasets from Kaggle
-3. Download Library and dataset
-4. Explore the dataset from the original dataset
-5. Cleaning Dataset
-6. Exploratory Data Analysis
+2. Loading library and dataset
+3. Data Exploration
+4. Data Cleaning and Data Transformation
+5. Data Analysis with Descriptive Statistics
 
 
 ## Define a question
@@ -24,7 +23,7 @@ Dataset from [anime_clean.csv](./anime_clean.csv)
 7. มีประเภทของ Anime ทั้งหมดกี่ประเภท และแต่ละประเภทมี Anime อยู่ทั้งหมดกี่เรื่อง
 
 
-## Step 0 Loading library and dataset
+## Loading library and dataset
 
 ```
 #library
