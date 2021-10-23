@@ -38,16 +38,16 @@ their completed list and give it a rating and this data set is a compilation of 
 
 ## 📚 Table of Contents
 
-1. [Exploratory Data Analysis](https://github.com/sit-2021-int214/028_Anime_Recommentation/blob/master/term%20assignment%20%5BGroup%5D/mid-term/exploratory.md) `Midterm assignment`
+1. [Exploratory Data Analysis](https://github.com/sit-2021-int214/028_Anime_Recommentation/blob/master/exploratory.md) `Midterm assignment`
 2. [Data Visualization]() `Final assignment`
 
 ## 📁 Resources
 
 ### Important Files in Repository
 
-- [code_eda.R](https://github.com/sit-2021-int214/028_Anime_Recommentation/blob/master/term%20assignment%20%5BGroup%5D/mid-term/code_eda.R) : Exploratory Data Analysis.md
-- [Anime_Recommendations_original.csv](https://github.com/sit-2021-int214/028_Anime_Recommentation/blob/master/term%20assignment%20%5BGroup%5D/mid-term/anime_recommendation.csv) : Original Dataset
-- [Anime_Recommendations.csv](https://github.com/sit-2021-int214/028_Anime_Recommentation/blob/master/term%20assignment%20%5BGroup%5D/mid-term/anime_clean.csv) : Clean Dataset
+- [code_eda.R](https://github.com/sit-2021-int214/028_Anime_Recommentation/blob/master/code_eda.R) : Exploratory Data Analysis.md
+- [Anime_Recommendations_original.csv](https://github.com/sit-2021-int214/028_Anime_Recommentation/blob/master/anime_recommendation.csv) : Original Dataset
+- [Anime_Recommendations.csv](https://github.com/sit-2021-int214/028_Anime_Recommentation/blob/master/anime_clean.csv) : Clean Dataset
 
 ### References
 https://www.kaggle.com/CooperUnion/anime-recommendations-database?select=anime.csv
