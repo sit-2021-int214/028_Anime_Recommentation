@@ -1,2 +1,0 @@
-### Project term assignment (Group)
- 
