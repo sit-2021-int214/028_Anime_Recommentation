@@ -1,3 +1,6 @@
+# Anime Dataset
+Dataset from [anime_recommendation.csv](./anime_recommendation.csv)
+
 ## Data Cleaning and Data Transformation
 ### 1. Checking the types of values
 ```
