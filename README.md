@@ -37,9 +37,10 @@ their completed list and give it a rating and this data set is a compilation of 
 - R Studio Desktop
 
 ## 📚 Table of Contents
-1. [Data Cleaning and Data Tranformation]() `Final assignment`
+1. [Data Cleaning and Data Tranformation](https://github.com/sit-2021-int214/028_Anime_Recommentation/blob/master/Data_Cleaning.md) `Midterm assignment`
 2. [Exploratory Data Analysis](https://github.com/sit-2021-int214/028_Anime_Recommentation/blob/master/exploratory.md) `Midterm assignment`
-3. [Data Visualization]() `Final assignment`
+3. [Hypothesis Testing with R]() `Final assignment`
+4. [Data Visualization]() `Final assignment`
 
 ## 📁 Resources
 
