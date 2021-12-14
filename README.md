@@ -40,7 +40,7 @@ their completed list and give it a rating and this data set is a compilation of 
 1. [Data Cleaning and Data Tranformation](https://github.com/sit-2021-int214/028_Anime_Recommentation/blob/master/Data_Cleaning.md) `Midterm assignment`
 2. [Exploratory Data Analysis](https://github.com/sit-2021-int214/028_Anime_Recommentation/blob/master/exploratory.md) `Midterm assignment`
 3. [Hypothesis Testing with R](https://github.com/sit-2021-int214/028_Anime_Recommentation/blob/master/Hypothesis%20Testing.md) `Final assignment`
-4. [Data Visualization](https://app.powerbi.com/view?r=eyJrIjoiYjFhNWNlZWItNjA4My00ZWIwLTkzYmItNzM0NTcyZjYwZWIzIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D) `Final assignment`
+4. [Data Visualization](https://app.powerbi.com/view?r=eyJrIjoiZDdmMDU3MGUtNWZjOS00ZjE0LWEyMDItYWI3ZTYzMDZkY2RiIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D) `Final assignment`
 
 ## 📁 Resources
 
