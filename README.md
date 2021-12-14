@@ -39,8 +39,8 @@ their completed list and give it a rating and this data set is a compilation of 
 ## 📚 Table of Contents
 1. [Data Cleaning and Data Tranformation](https://github.com/sit-2021-int214/028_Anime_Recommentation/blob/master/Data_Cleaning.md) `Midterm assignment`
 2. [Exploratory Data Analysis](https://github.com/sit-2021-int214/028_Anime_Recommentation/blob/master/exploratory.md) `Midterm assignment`
-3. [Hypothesis Testing with R]() `Final assignment`
-4. [Data Visualization]() `Final assignment`
+3. [Hypothesis Testing with R](https://github.com/sit-2021-int214/028_Anime_Recommentation/blob/master/Hypothesis%20Testing.md) `Final assignment`
+4. [Data Visualization](https://app.powerbi.com/view?r=eyJrIjoiNTNlOTNlZjctODljNy00Y2ZkLTg1MTYtZGNlMTQyZjE1YWNlIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D) `Final assignment`
 
 ## 📁 Resources
 
