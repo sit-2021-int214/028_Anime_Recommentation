@@ -41,6 +41,8 @@ their completed list and give it a rating and this data set is a compilation of 
 2. [Exploratory Data Analysis](https://github.com/sit-2021-int214/028_Anime_Recommentation/blob/master/exploratory.md) `Midterm assignment`
 3. [Hypothesis Testing with R](https://github.com/sit-2021-int214/028_Anime_Recommentation/blob/master/Hypothesis%20Testing.md) `Final assignment`
 4. [Data Visualization](https://app.powerbi.com/view?r=eyJrIjoiNzQ3ZGM1ZTQtYTQ2Ni00NTNjLTg2ZGUtYzE2MjlmMDE3YmQzIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection) `Final assignment`
+5. [Presentation](https://www.canva.com/design/DAEyDUeg0gA/zuYPzOCJPvblQDS63y4HvQ/view?utm_content=DAEyDUeg0gA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#3) `Final assignment`
+
 
 ## 📁 Resources
 
