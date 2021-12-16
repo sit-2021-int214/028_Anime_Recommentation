@@ -51,10 +51,11 @@ their completed list and give it a rating and this data set is a compilation of 
 - [Anime_Recommendations.csv](https://github.com/sit-2021-int214/028_Anime_Recommentation/blob/master/anime_clean.csv) : Clean Dataset
 
 ### References
-https://www.kaggle.com/CooperUnion/anime-recommendations-database?select=anime.csv
+- https://www.kaggle.com/CooperUnion/anime-recommendations-database?select=anime.csv
+
 How to Split Columns : 
-https://www.tutorialgateway.org/how-to-split-columns-in-power-bi/
-https://www.youtube.com/watch?v=9krfJLv8ENk
+- https://www.tutorialgateway.org/how-to-split-columns-in-power-bi/
+- https://www.youtube.com/watch?v=9krfJLv8ENk
 
 ## :sunglasses: About Us
 
