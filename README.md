@@ -52,6 +52,8 @@ their completed list and give it a rating and this data set is a compilation of 
 
 ### References
 https://www.kaggle.com/CooperUnion/anime-recommendations-database?select=anime.csv
+How to Split Columns : https://www.tutorialgateway.org/how-to-split-columns-in-power-bi/
+                       https://www.youtube.com/watch?v=9krfJLv8ENk
 
 ## :sunglasses: About Us
 
